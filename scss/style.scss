@@ -1,0 +1,211 @@
+@import 'reset.scss';
+@import 'variable.scss';
+@import 'bases.scss';
+@import 'media.scss';
+
+ 
+ 
+ header{@extend %padding;  
+        .cont-header{
+        @include flex(flex, space-around, center);
+        @extend %cont;
+            img{
+                width: $img-width;
+            }
+        .nav{ @extend %nav-atr;
+            .nav-ul{
+                @extend %d-flex; 
+            }
+            @extend %text-upper;
+            .nav-li{
+                margin-right: $mar-right;
+                a{
+                   
+                    color: $color-01;
+                }
+            }
+         }
+        .nav-ul1{
+            @include flex(flex, space-around, center);
+            .li1{
+                    margin-right: $mar-right;
+                    a{
+                        .size1{
+                            width: $icon-width*3;
+                            height: $icon-height;
+                        }
+                    }
+                    &:after{
+                        content:"";
+                        width:  $icon-width/5;
+                        height: $icon-height;
+                        margin-left: $mar-left/3;
+                        background-color:$color-01;
+                        display: inline-block;
+                    }
+                }
+                .li2{
+                    margin-right: $mar-right;
+                    a{
+                        .size2{
+                            width: $icon-width;
+                            height: $icon-height;
+                        }
+                    }
+                    &:after{
+                        content:"";
+                        width:  $icon-width/5;
+                        height: $icon-height;
+                        margin-left: $mar-left/3;
+                        background-color:$color-01;
+                        display: inline-block;
+                    }
+                } 
+                .li3{
+                    margin-right: $mar-right;
+                    a{
+                        .size3{
+                            width: ($icon-width*2)-5;
+                            height: $icon-height;
+                        }
+                    }
+                    &:after{
+                        content:"";
+                        width:  $icon-width/5;
+                        height: $icon-height;
+                        margin-left: $mar-left/3;
+                        background-color:$color-01;
+                        display: inline-block;
+                    }
+                }  
+                .li4{
+                    margin-right: $mar-right;
+                    a{
+                        .size4{
+                            width: ($icon-width*3)-5;
+                            height: $icon-height +10; 
+                        }
+                    }
+                } 
+               
+            }
+            .burger{ display: none;
+                i{
+                    font-size: $burger-size;
+                    color: $red;
+                }
+            } 
+    }
+}
+.red-box{
+    background-color: $red;
+		@extend %padding;
+		p{
+            padding-left:  $hei-wid;
+            @extend %text-upper;
+            @extend %cont;
+            color: $color-001;
+        }
+}
+.section { 
+        @extend  %cont;
+		@extend %d-flex;
+		@include flex1 (space-around,center);
+		@extend %padding;
+		 
+		.box{
+            h4{
+                @extend %margin;
+                color: $red;
+            }
+			.border-box{
+				@include border (4px, solid, $red);
+                @extend %paddingx;
+				img{
+					height: $img-width;
+				}
+			}
+		&:nth-child(2){
+				img{
+					height: $img-width*1.5;
+				}
+			}
+			 
+		}
+
+    }
+.red{
+    width: 100%;
+    background-color: $red;
+    height: $hei-wid/10;
+}    
+span{  
+    .alone-p{
+        @extend %padding;   
+        @extend %cont;
+        color:$red;
+    }
+}
+.box-person{
+    @extend %padding;   
+    @include flex(flex, space-around, center);
+    @extend %cont;
+    img{
+        width: 27%;
+    }
+     
+}
+
+.container{   
+    background-color: $silver;
+    @extend %padding;   
+    @include flex(flex, space-around, center);    
+        a{    
+            text-decoration: underline;
+        }
+        .span{     
+            .span_a{  
+                color:$color-001;
+            }
+        }
+        .soc_info{ 
+            background-image: url(../images/soc_info.svg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            width: $hei-wid*3.3;
+            height:($hei-wid)-39;
+    }
+}
+.section1{ background-color:$color-02;
+    h1{
+        @extend %cont;
+         
+    }
+    .dis-flex{
+        @include flex(flex, space-around, center); 
+        @extend %cont;
+        @extend %padding; 
+        .box1{ margin: 10px;
+             background-color: $color-001;
+            @extend %padding;
+            img{
+                float: left;
+                width: $img-width;
+                height: $img-width;
+            }
+          
+        }
+        .box2{  margin: 10px;  
+            background:$color-001;
+            @extend %padding;
+            img{
+                float: left;
+                width: $img-width;
+                height: $img-width;
+            }
+          
+        }
+    }
+}
+ 

@@ -1,0 +1,52 @@
+@import 'variable.scss';
+
+%margin{
+    margin: 10px 0;
+}
+%margin1{
+    margin: 15px;
+}
+%padding{
+    padding:30px 0;
+}
+%paddingx{
+   padding: 30px;
+}
+%text-upper{
+    text-transform: uppercase;
+}
+%nav-atr{
+    font-size: 24px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+%cont{
+    max-width: 1170px;
+    margin: 0 auto;
+    width: 100%;
+}
+%d-flex{
+    display: flex;
+}
+
+
+//mixims//
+
+@mixin flex($display, $horizontal, $vertical){
+    display: $display;
+    justify-content: $horizontal;
+    align-items: $vertical;
+}
+@mixin flex1($horizontal, $vertical) {
+    justify-content: $horizontal;
+    align-items: $vertical;
+}
+@mixin border($width,$type,$color) {
+	border-width: $width;
+	border-style: $type;
+	border-color: $color;
+}
+@mixin wrap($wrap){
+    flex-wrap: $wrap;
+}
+//mixims//

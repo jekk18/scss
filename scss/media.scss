@@ -1,0 +1,25 @@
+@import 'reset.scss';
+@import 'variable.scss';
+@import 'bases.scss';
+
+@media screen and(max-width:1024px){
+    .nav{
+        display: none;  
+    }
+    .li1,.li2,.li3{
+        display: none;
+    }
+    .box3{
+        width: 80%;
+    }
+    .section{
+        @include wrap(wrap)
+    }
+    .box-person{ @include wrap(wrap)
+    }
+    .dis-flex{
+        @include wrap(wrap)
+       
+    }
+  
+}

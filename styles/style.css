@@ -1,0 +1,281 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after {
+  content: '';
+  content: none; }
+
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+a {
+  text-decoration: none; }
+
+* {
+  box-sizing: border-box; }
+
+.section .box h4 {
+  margin: 10px 0; }
+
+header, .red-box, .section, span .alone-p, .box-person, .container, .section1 .dis-flex, .section1 .dis-flex .box1, .section1 .dis-flex .box2 {
+  padding: 30px 0; }
+
+.section .box .border-box {
+  padding: 30px; }
+
+header .cont-header .nav, .red-box p {
+  text-transform: uppercase; }
+
+header .cont-header .nav {
+  font-size: 24px;
+  font-family: 'Roboto Condensed', sans-serif; }
+
+header .cont-header, .red-box p, .section, span .alone-p, .box-person, .section1 h1, .section1 .dis-flex {
+  max-width: 1170px;
+  margin: 0 auto;
+  width: 100%; }
+
+header .cont-header .nav .nav-ul, .section {
+  display: flex; }
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after {
+  content: '';
+  content: none; }
+
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+a {
+  text-decoration: none; }
+
+* {
+  box-sizing: border-box; }
+
+.section .box h4 {
+  margin: 10px 0; }
+
+header, .red-box, .section, span .alone-p, .box-person, .container, .section1 .dis-flex, .section1 .dis-flex .box1, .section1 .dis-flex .box2 {
+  padding: 30px 0; }
+
+.section .box .border-box {
+  padding: 30px; }
+
+header .cont-header .nav, .red-box p {
+  text-transform: uppercase; }
+
+header .cont-header .nav {
+  font-size: 24px;
+  font-family: 'Roboto Condensed', sans-serif; }
+
+header .cont-header, .red-box p, .section, span .alone-p, .box-person, .section1 h1, .section1 .dis-flex {
+  max-width: 1170px;
+  margin: 0 auto;
+  width: 100%; }
+
+header .cont-header .nav .nav-ul, .section {
+  display: flex; }
+
+@media screen and (max-width: 1024px) {
+  .nav {
+    display: none; }
+  .li1, .li2, .li3 {
+    display: none; }
+  .box3 {
+    width: 80%; }
+  .section {
+    flex-wrap: wrap; }
+  .box-person {
+    flex-wrap: wrap; }
+  .dis-flex {
+    flex-wrap: wrap; } }
+
+header .cont-header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+  header .cont-header img {
+    width: 150px; }
+  header .cont-header .nav .nav-li {
+    margin-right: 30px; }
+    header .cont-header .nav .nav-li a {
+      color: #3D58A6; }
+  header .cont-header .nav-ul1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center; }
+    header .cont-header .nav-ul1 .li1 {
+      margin-right: 30px; }
+      header .cont-header .nav-ul1 .li1 a .size1 {
+        width: 45px;
+        height: 30px; }
+      header .cont-header .nav-ul1 .li1:after {
+        content: "";
+        width: 3px;
+        height: 30px;
+        margin-left: 5px;
+        background-color: #3D58A6;
+        display: inline-block; }
+    header .cont-header .nav-ul1 .li2 {
+      margin-right: 30px; }
+      header .cont-header .nav-ul1 .li2 a .size2 {
+        width: 15px;
+        height: 30px; }
+      header .cont-header .nav-ul1 .li2:after {
+        content: "";
+        width: 3px;
+        height: 30px;
+        margin-left: 5px;
+        background-color: #3D58A6;
+        display: inline-block; }
+    header .cont-header .nav-ul1 .li3 {
+      margin-right: 30px; }
+      header .cont-header .nav-ul1 .li3 a .size3 {
+        width: 25px;
+        height: 30px; }
+      header .cont-header .nav-ul1 .li3:after {
+        content: "";
+        width: 3px;
+        height: 30px;
+        margin-left: 5px;
+        background-color: #3D58A6;
+        display: inline-block; }
+    header .cont-header .nav-ul1 .li4 {
+      margin-right: 30px; }
+      header .cont-header .nav-ul1 .li4 a .size4 {
+        width: 40px;
+        height: 40px; }
+  header .cont-header .burger {
+    display: none; }
+    header .cont-header .burger i {
+      font-size: 50px;
+      color: red; }
+
+.red-box {
+  background-color: red; }
+  .red-box p {
+    padding-left: 60px;
+    color: #fff; }
+
+.section {
+  justify-content: space-around;
+  align-items: center; }
+  .section .box h4 {
+    color: red; }
+  .section .box .border-box {
+    border-width: 4px;
+    border-style: solid;
+    border-color: red; }
+    .section .box .border-box img {
+      height: 150px; }
+  .section .box:nth-child(2) img {
+    height: 225px; }
+
+.red {
+  width: 100%;
+  background-color: red;
+  height: 6px; }
+
+span .alone-p {
+  color: red; }
+
+.box-person {
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+  .box-person img {
+    width: 27%; }
+
+.container {
+  background-color: silver;
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+  .container a {
+    text-decoration: underline; }
+  .container .span .span_a {
+    color: #fff; }
+  .container .soc_info {
+    background-image: url(../images/soc_info.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 198px;
+    height: 21px; }
+
+.section1 {
+  background-color: #E6E6E6; }
+  .section1 .dis-flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center; }
+    .section1 .dis-flex .box1 {
+      margin: 10px;
+      background-color: #fff; }
+      .section1 .dis-flex .box1 img {
+        float: left;
+        width: 150px;
+        height: 150px; }
+    .section1 .dis-flex .box2 {
+      margin: 10px;
+      background: #fff; }
+      .section1 .dis-flex .box2 img {
+        float: left;
+        width: 150px;
+        height: 150px; }
